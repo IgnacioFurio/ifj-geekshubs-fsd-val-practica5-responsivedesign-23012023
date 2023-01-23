@@ -1,0 +1,41 @@
+body{
+    background-color: blue;
+    margin: 0%;
+}
+    #head{
+        background-color: aqua;
+        height: 20vh;
+    }
+    .container{
+        background-color: red;
+        height: 70vh;
+        display: flex;
+    }
+    
+        #container-izq{
+            background-color: greenyellow;
+            width: 30vw;
+        }
+        #container-der{
+            background-color: orange;
+            width: 80vw;
+        }
+        
+    #footer{
+        background-color: green;
+        height: 10vh;
+    }
+
+
+
+        /* Nexus 5  */
+@media (max-width:360px){
+
+    #container-izq{
+    display: none;
+    }
+
+    #container-der{
+        width: 100%;
+    }
+}
